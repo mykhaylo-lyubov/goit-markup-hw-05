@@ -24,7 +24,9 @@
           >
           <ul class="site-nav list">
             <li class="item">
-              <a href="./index.html" class="link active-link-studio header-font"
+              <a
+                href="./index.html"
+                class="link active-link-studio current header-font"
                 >Студия</a
               >
             </li>
@@ -615,17 +617,26 @@
               </li>
             </ul>
           </div>
-          <div class="subscribe">
-            <p class="title">подпишитесь на рассылку</p>
-          </div>
-          <div class="subscribe-form">
-            <button type="button" class="button-footer">
+          <form action="" method="post" class="footer-form">
+            <label>
+              <p class="title">подпишитесь на рассылку</p>
+
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                style="width: 358px; height: 50px;"
+                class="subscription-input"
+              />
+            </label>
+
+            <button type="submit" class="button-footer">
               Подписаться
               <svg class="portfolio-icon-send" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
         <div class="copyright">
           <p class="authors" lang="en">2020 | Developed by GoIT Students</p>
